@@ -1,0 +1,71 @@
+.trapezoid {
+    position: absolute;
+	border-top: 100px solid #CC0000;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: auto;
+	width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.85)), url('//unsplash.imgix.net/46/unsplash_52c319226cefb_1.JPG?dpr=0.25&fit=crop&fm=jpg&h=700&q=75&w=1050');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.revolt-logo {
+    z-index: 9;
+    position: absolute;
+    color: white;
+    width: 200px;
+    font-family: boycott;
+    text-align: center;
+    margin: 25px 100px;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.navbar-inverse {
+    border-bottom: 0;
+    z-index: 8;
+}
+.main-thing {
+    padding: 50px;
+    background-color: #DDD;
+    height: 500px;
+}
+.cover {
+    position: absolute;
+    display: table;
+    height: 100%;
+}
+.cover-content {
+    color: white;
+    display: table-cell;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+.cover-container {
+    font-family: boycott;
+    position: relative;
+    height: auto;
+    width: 100%;
+    height: 80vh;
+}
+@font-face {
+    font-family: boycott;
+    src: url('../fonts/BOYCOTT_-webfont.eot');
+    src: url('../fonts/BOYCOTT_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BOYCOTT_-webfont.woff') format('woff'),
+         url('../fonts/BOYCOTT_.ttf') format('truetype'),
+         url('../fonts/BOYCOTT_-webfont.svg#boycottregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: hardrock;
+    src: url('../fonts/HARD_ROCK.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
